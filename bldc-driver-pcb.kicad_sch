@@ -1,0 +1,188 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5e6bb808-fe2d-4f40-abac-bbdbce94873a")
+	(paper "A5")
+	(title_block
+		(title "BLDC Motor Driver - Sensored FOC")
+		(date "2025-12-03")
+		(rev "1")
+		(company "CERN BE-CEM-EPR")
+	)
+	(lib_symbols)
+	(sheet
+		(at 78.74 31.75)
+		(size 54.61 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "438e8c0a-0ffb-4b9d-beb8-326aea7999b7")
+		(property "Sheetname" "Microcontroller"
+			(at 78.74 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 78.74 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 31.75)
+		(size 53.34 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "497cb399-5d91-42d3-8b68-a34cf9946feb")
+		(property "Sheetname" "Position Sensing"
+			(at 19.05 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "encoder.kicad_sch"
+			(at 19.05 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 92.71)
+		(size 40.64 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ddeb243-24bf-4a20-8620-8ff289455c52")
+		(property "Sheetname" "Current Sensing"
+			(at 24.13 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensing.kicad_sch"
+			(at 24.13 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 31.75)
+		(size 49.53 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c")
+		(property "Sheetname" "Three-Phase Inverter"
+			(at 138.43 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inverter.kicad_sch"
+			(at 138.43 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
