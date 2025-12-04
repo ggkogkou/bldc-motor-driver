@@ -1,4 +1,4 @@
-25617094400133969
+25618859248877875
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102675,3 +102675,10 @@ Integrated Circuit
 0
 8
 8
+bldc-driver-pcb
+SAMTEC_FTSH-105-XX-X-DV
+translated Allegro footprint
+
+0
+10
+10

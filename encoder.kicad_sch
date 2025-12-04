@@ -621,20 +621,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Available modes:\n- SPI\n- ABI/Z\n- PWM\n- UVW\n\nRoute only SPI mode, left the other pins NC\n\nConnect TEST pin to GND according to datasheet"
-		(exclude_from_sim no)
-		(at 123.698 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "97b20bd6-5283-4d0d-9cbc-d4eda315dddd")
-	)
 	(text "Decoupling\nCapacitor"
 		(exclude_from_sim no)
-		(at 86.868 70.358 0)
+		(at 90.678 72.898 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -643,39 +632,59 @@
 		)
 		(uuid "dad64690-b806-47b9-b2e9-d38cbd566aac")
 	)
+	(text_box "Available modes:\n- SPI\n- ABI/Z\n- PWM\n- UVW\n\nRoute only SPI mode, left the other pins NC\n\nConnect TEST pin to GND according to datasheet"
+		(exclude_from_sim no)
+		(at 120.65 69.85 0)
+		(size 71.12 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "95c64166-d63f-484c-9586-6d64702d5eef")
+	)
 	(junction
-		(at 78.74 64.77)
+		(at 82.55 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e9e957e-d0d7-423d-b383-c7d0b0853b90")
 	)
 	(no_connect
-		(at 72.39 72.39)
+		(at 76.2 74.93)
 		(uuid "24c6dd4a-8e5e-48e8-96bb-95dd6f5693bb")
 	)
 	(no_connect
-		(at 41.91 69.85)
+		(at 45.72 72.39)
 		(uuid "41f1485a-f3dd-44f2-8ce6-39119c45ecf8")
 	)
 	(no_connect
-		(at 72.39 67.31)
+		(at 76.2 69.85)
 		(uuid "4214f98d-e952-4e30-a3b1-e8caaa25ad40")
 	)
 	(no_connect
-		(at 72.39 57.15)
+		(at 76.2 59.69)
 		(uuid "53e150cf-7fb9-4c0a-b8e3-63679b5b4e63")
 	)
 	(no_connect
-		(at 72.39 69.85)
+		(at 76.2 72.39)
 		(uuid "693833a6-d847-46e3-938d-3c9fc415a1fa")
 	)
 	(no_connect
-		(at 41.91 72.39)
+		(at 45.72 74.93)
 		(uuid "d4eabf71-596e-4452-8c96-27a851e9dae6")
 	)
 	(wire
 		(pts
-			(xy 72.39 62.23) (xy 78.74 62.23)
+			(xy 76.2 64.77) (xy 82.55 64.77)
 		)
 		(stroke
 			(width 0)
@@ -685,7 +694,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 62.23) (xy 78.74 64.77)
+			(xy 82.55 64.77) (xy 82.55 67.31)
 		)
 		(stroke
 			(width 0)
@@ -695,7 +704,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 64.77) (xy 78.74 64.77)
+			(xy 76.2 67.31) (xy 82.55 67.31)
 		)
 		(stroke
 			(width 0)
@@ -705,7 +714,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 64.77) (xy 85.09 64.77)
+			(xy 82.55 67.31) (xy 88.9 67.31)
 		)
 		(stroke
 			(width 0)
@@ -715,7 +724,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 67.31) (xy 78.74 64.77)
+			(xy 82.55 69.85) (xy 82.55 67.31)
 		)
 		(stroke
 			(width 0)
@@ -725,7 +734,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 72.39) (xy 78.74 73.66)
+			(xy 82.55 74.93) (xy 82.55 76.2)
 		)
 		(stroke
 			(width 0)
@@ -734,7 +743,7 @@
 		(uuid "b990345a-4f62-4ead-a2da-a0c176b109f6")
 	)
 	(image
-		(at 160.02 29.21)
+		(at 156.718 54.356)
 		(scale 0.515742)
 		(uuid "cb04981b-482d-40fc-9cfd-b7ad7e64b8bf")
 		(data "iVBORw0KGgoAAAANSUhEUgAABmkAAAKVCAYAAAAk+A8yAAAgAElEQVR4XuzdB5gkVb338UPOIBkE"
@@ -2002,7 +2011,7 @@
 	)
 	(hierarchical_label "ENCODER_MISO"
 		(shape input)
-		(at 41.91 62.23 180)
+		(at 45.72 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2013,7 +2022,7 @@
 	)
 	(hierarchical_label "ENCODER_CSn"
 		(shape input)
-		(at 41.91 57.15 180)
+		(at 45.72 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2024,7 +2033,7 @@
 	)
 	(hierarchical_label "ENCODER_MOSI"
 		(shape input)
-		(at 41.91 64.77 180)
+		(at 45.72 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2035,7 +2044,7 @@
 	)
 	(hierarchical_label "ENCODER_3V3"
 		(shape input)
-		(at 85.09 64.77 0)
+		(at 88.9 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2046,7 +2055,7 @@
 	)
 	(hierarchical_label "ENCODER_SCLK"
 		(shape input)
-		(at 41.91 59.69 180)
+		(at 45.72 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2057,7 +2066,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 78.74 69.85 0)
+		(at 82.55 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2066,7 +2075,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b999ad0-9ddd-49da-9405-dc94c2a20f98")
 		(property "Reference" "C2"
-			(at 81.28 68.5862 0)
+			(at 85.09 71.1262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +2084,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 81.28 71.1262 0)
+			(at 85.09 73.6662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +2093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 69.85 0)
+			(at 82.55 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 69.85 0)
+			(at 82.55 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2111,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 78.74 69.85 0)
+			(at 82.55 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,7 +2136,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 59.69 90)
+		(at 76.2 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2136,7 +2145,7 @@
 		(fields_autoplaced yes)
 		(uuid "76638967-c577-4069-b3d0-cf1d1b53b5ec")
 		(property "Reference" "#PWR023"
-			(at 78.74 59.69 0)
+			(at 82.55 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2154,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 59.6899 90)
+			(at 80.01 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 59.69 0)
+			(at 76.2 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 59.69 0)
+			(at 76.2 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 59.69 0)
+			(at 76.2 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2203,7 @@
 	)
 	(symbol
 		(lib_id "bldc-driver-pcb:AS5047P-ATSM")
-		(at 57.15 64.77 0)
+		(at 60.96 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2203,7 +2212,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7b4845b-0f24-468f-9c2a-9c32610aa6ac")
 		(property "Reference" "IC2"
-			(at 57.15 49.53 0)
+			(at 60.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2220,7 @@
 			)
 		)
 		(property "Value" "AS5047P-ATSM"
-			(at 57.15 52.07 0)
+			(at 60.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +2228,7 @@
 			)
 		)
 		(property "Footprint" "bldc-driver-pcb:AS5047P"
-			(at 83.82 159.69 0)
+			(at 87.63 162.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2238,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-7/120640.pdf"
-			(at 83.82 259.69 0)
+			(at 87.63 262.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2248,7 @@
 			)
 		)
 		(property "Description" "Board Mount Hall Effect / Magnetic Sensors 14 bit core res Up to 28krpm"
-			(at 57.15 64.77 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2257,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at 83.82 459.69 0)
+			(at 87.63 462.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2267,7 @@
 			)
 		)
 		(property "Mouser Part Number" "985-AS5047P-ATSM"
-			(at 83.82 559.69 0)
+			(at 87.63 562.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2277,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/AS5047P-ATSM?qs=cGEy3R83DS8fzNOVLHtOgg%3D%3D"
-			(at 83.82 659.69 0)
+			(at 87.63 662.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,7 +2287,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ams OSRAM"
-			(at 83.82 759.69 0)
+			(at 87.63 762.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +2297,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AS5047P-ATSM"
-			(at 83.82 859.69 0)
+			(at 87.63 862.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2359,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 67.31 270)
+		(at 45.72 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2359,7 +2368,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4fd77ca-f51e-45df-86e6-1478c5939f32")
 		(property "Reference" "#PWR022"
-			(at 35.56 67.31 0)
+			(at 39.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,7 +2377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 67.3099 90)
+			(at 41.91 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,7 +2386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 67.31 0)
+			(at 45.72 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +2395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 67.31 0)
+			(at 45.72 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +2404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 67.31 0)
+			(at 45.72 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +2426,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 73.66 0)
+		(at 82.55 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2426,7 +2435,7 @@
 		(fields_autoplaced yes)
 		(uuid "e74882d6-903f-4302-af60-107dd123d890")
 		(property "Reference" "#PWR024"
-			(at 78.74 80.01 0)
+			(at 82.55 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2444,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 78.74 0)
+			(at 82.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2452,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 73.66 0)
+			(at 82.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 73.66 0)
+			(at 82.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +2470,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 73.66 0)
+			(at 82.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

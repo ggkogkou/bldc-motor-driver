@@ -635,7 +635,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 17.78 33.02 0)
+			(at -1.524 -17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -644,7 +644,7 @@
 			)
 		)
 		(property "Value" "ATSAMD21G18A-AFT"
-			(at 17.78 30.48 0)
+			(at -9.652 -19.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
