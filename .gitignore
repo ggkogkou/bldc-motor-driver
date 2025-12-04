@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+
+# Reports
+*.rpt
+
+# CPL data generated from PCB
+*.pos
+
+# KiCAD backup
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*.kicad_sch-bak
+
+
+
+
+# Netlists
+*.net
+
+# BOM plugin output
+*.csv.tmp
+#*.csv
+*.xml
+
+# Gerbers
+#*.gbr
+
+# Drill files
+#*.drl
+
+# Footprint info cache
+fp-info-cache
+
+# Autosave and backup files
+_autosave-*
+_saved_*
+*backups
+*-save.pro
+*-save.kicad_pcb
+\#auto_saved_files\#
+
+#Local Configuration files
+*.kicad_prl
+
+# ECAD libraries
+LIB_*
+
+*.lck
+*.tmp
+*.dsn
+*.ses
+*.tsv
+*.kiri/

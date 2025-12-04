@@ -1915,10 +1915,111 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
-		(start 222.25 57.15)
-		(end 311.15 129.54)
+		(start 219.71 57.15)
+		(end 309.88 129.54)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1941,7 +2042,7 @@
 		(uuid 3c346427-dfbf-406b-963c-82040aafc859)
 	)
 	(rectangle
-		(start 313.69 57.15)
+		(start 312.42 57.15)
 		(end 402.59 129.54)
 		(stroke
 			(width 0)
@@ -1953,7 +2054,7 @@
 		(uuid 7e468d21-ff34-4a78-966c-6a104d97d570)
 	)
 	(rectangle
-		(start 222.25 130.81)
+		(start 219.71 130.81)
 		(end 402.59 247.65)
 		(stroke
 			(width 0)
@@ -2000,17 +2101,6 @@
 		)
 		(uuid "4c622af0-c876-4c7e-b113-d6077024579c")
 	)
-	(text "MOSI on PAD0\nSCK on PAD1\nMISO on PAD3"
-		(exclude_from_sim no)
-		(at 151.13 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "57943ea8-31d4-4829-bb06-136f4d120f29")
-	)
 	(text "Cortex Debug Connector"
 		(exclude_from_sim no)
 		(at 267.462 61.976 0)
@@ -2033,17 +2123,6 @@
 			(justify left)
 		)
 		(uuid "8331c6d8-fa7f-4584-adc6-35f0b277e286")
-	)
-	(text "Can also be SERCOM5_PAD3 \nand PAD2"
-		(exclude_from_sim no)
-		(at 143.764 128.524 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aa8fd711-c0b6-48ff-8dc9-3d7d71790151")
 	)
 	(text_box "Use either external:\n- Clock source (e.g. TCXO) and leave XOUT NC\n- Crystal oscillator"
 		(exclude_from_sim no)
@@ -2084,6 +2163,46 @@
 			(justify left top)
 		)
 		(uuid "2cdff9f8-dff6-49c5-9c0e-258ba5d68333")
+	)
+	(text_box "SERCOM3 & SERCOM5 shall be used as USART"
+		(exclude_from_sim no)
+		(at 151.13 133.35 0)
+		(size 25.4 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5bb10af0-7142-469e-99ce-c00f50c7b5ac")
+	)
+	(text_box "MOSI on PAD0\nSCK on PAD1\nMISO on PAD3"
+		(exclude_from_sim no)
+		(at 154.94 142.24 0)
+		(size 17.78 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "716e11d7-27a8-488e-9d46-1d7ed3aa5fc9")
 	)
 	(text_box "Serial Wire Debug Interface Pinout\n----------------------------------\nOnly the SWCLK pin is mapped to the normal port functions.\nA debugger cold-plugging or hot-plugging detection will automatically switch the SWDIO port to the SWDIO function."
 		(exclude_from_sim no)
@@ -2180,6 +2299,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "674cd090-fe1e-44d3-b1e5-c2187537c8b2")
+	)
+	(junction
+		(at 226.06 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77abf152-0c99-4e7f-ac52-83ed87e03217")
 	)
 	(junction
 		(at 269.24 214.63)
@@ -2307,6 +2432,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 139.7) (xy 234.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106899ef-c945-472d-936d-ede9793e73c2")
+	)
+	(polyline
+		(pts
+			(xy 132.08 151.13) (xy 179.07 151.13)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "10981a9c-3039-4ab6-bc68-f6966c7455a0")
+	)
+	(wire
+		(pts
 			(xy 107.95 170.18) (xy 107.95 172.72)
 		)
 		(stroke
@@ -2324,6 +2469,16 @@
 			(type default)
 		)
 		(uuid "11bac3bf-0c64-4cd7-994e-22c75416a846")
+	)
+	(polyline
+		(pts
+			(xy 132.08 130.81) (xy 179.07 130.81)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "12e57674-100a-4ac2-83d9-1062245d63a0")
 	)
 	(wire
 		(pts
@@ -2425,6 +2580,16 @@
 		)
 		(uuid "29cef9a0-b2a3-422a-8018-8eda3466a5f3")
 	)
+	(polyline
+		(pts
+			(xy 132.08 130.81) (xy 132.08 151.13)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "2a9fc2f5-435e-4957-bc22-c6714f86816c")
+	)
 	(wire
 		(pts
 			(xy 100.33 91.44) (xy 100.33 101.6)
@@ -2444,6 +2609,16 @@
 			(type dot)
 		)
 		(uuid "3ca663d1-53b9-4032-833e-746de1827fea")
+	)
+	(polyline
+		(pts
+			(xy 132.08 140.97) (xy 179.07 140.97)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "3ef3c99d-9360-4c5b-9827-ce6aebbbf6a3")
 	)
 	(wire
 		(pts
@@ -2494,6 +2669,16 @@
 			(type default)
 		)
 		(uuid "4e5de144-f40b-45f9-8699-e5f4058bee86")
+	)
+	(wire
+		(pts
+			(xy 226.06 139.7) (xy 226.06 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5135c9a0-b3ce-4a40-bb34-5550b1adfc1c")
 	)
 	(wire
 		(pts
@@ -2627,6 +2812,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 138.43) (xy 226.06 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8123b6bb-99a9-4013-8d79-564fa0768acf")
+	)
+	(wire
+		(pts
 			(xy 85.09 121.92) (xy 87.63 121.92)
 		)
 		(stroke
@@ -2644,6 +2839,16 @@
 			(type default)
 		)
 		(uuid "856cfc8e-0205-4021-a011-1428e3cbcfab")
+	)
+	(wire
+		(pts
+			(xy 133.35 139.7) (xy 130.81 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89829023-9f4e-409f-b25c-b4b681d0507e")
 	)
 	(wire
 		(pts
@@ -2807,16 +3012,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 139.7) (xy 226.06 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b36c992a-3c8b-4e18-9a12-aec77880a348")
-	)
-	(wire
-		(pts
 			(xy 120.65 99.06) (xy 120.65 101.6)
 		)
 		(stroke
@@ -2974,6 +3169,16 @@
 			(type default)
 		)
 		(uuid "eee57f0d-d207-4482-be0e-a27dd6ac3045")
+	)
+	(wire
+		(pts
+			(xy 133.35 137.16) (xy 130.81 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef30d44e-6ea0-44b1-a484-4f04830e9117")
 	)
 	(wire
 		(pts
@@ -10951,6 +11156,17 @@
 		)
 		(uuid "169c3695-a566-4d93-98b1-0a2269541fa1")
 	)
+	(hierarchical_label "3V3_MCU"
+		(shape input)
+		(at 234.95 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a46487d-f234-47b8-b9ac-4a53a37c1a19")
+	)
 	(hierarchical_label "VDDIO"
 		(shape input)
 		(at 287.02 172.72 0)
@@ -10973,6 +11189,17 @@
 		)
 		(uuid "20000903-45d5-4d35-8295-d33430f9a073")
 	)
+	(hierarchical_label "SERCOM5_PAD2"
+		(shape input)
+		(at 133.35 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24ef095d-25aa-4377-821f-6a978c9a5c90")
+	)
 	(hierarchical_label "VDDANA"
 		(shape input)
 		(at 285.75 151.13 0)
@@ -10994,6 +11221,17 @@
 			(justify right)
 		)
 		(uuid "3a5f3748-c118-4ce1-9cb9-5bc49f65e3fc")
+	)
+	(hierarchical_label "SERCOM5_PAD3"
+		(shape input)
+		(at 133.35 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5811323f-eca3-4f85-9eba-3bcff8465e9c")
 	)
 	(hierarchical_label "TCC0_WO0"
 		(shape input)
@@ -11259,17 +11497,6 @@
 		)
 		(uuid "e9f6bdb3-b041-4dfb-a658-826de0779e53")
 	)
-	(hierarchical_label "DRV8316_ENABLE"
-		(shape input)
-		(at 134.62 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "edc3fce2-143d-4ea0-9b4b-bceb71e434f6")
-	)
 	(hierarchical_label "XIN"
 		(shape input)
 		(at 120.65 172.72 270)
@@ -11346,7 +11573,7 @@
 		(dnp no)
 		(uuid "08f036bf-c924-4b5c-8057-13f2b3381649")
 		(property "Reference" "FB1"
-			(at 238.7092 143.51 90)
+			(at 238.76 144.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11354,7 +11581,7 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 238.7092 146.05 90)
+			(at 238.76 146.812 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12666,72 +12893,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 226.06 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af6d781d-1687-4ee3-bf4a-a80b45a1801e")
-		(property "Reference" "#PWR036"
-			(at 226.06 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 226.06 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 226.06 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2f34867-61b0-42a1-9e77-0fafdae7dc04")
-		)
-		(instances
-			(project ""
-				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 251.46 200.66 0)
 		(unit 1)
@@ -12930,6 +13091,72 @@
 			(project "bldc-driver-pcb"
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 226.06 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf7c4fdd-c6a5-4c66-aa29-791fe1b624f2")
+		(property "Reference" "#FLG01"
+			(at 226.06 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 226.06 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 226.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75092951-a153-4240-8653-7128cf1270f0")
+		)
+		(instances
+			(project ""
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
