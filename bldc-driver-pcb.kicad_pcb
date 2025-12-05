@@ -19163,6 +19163,17 @@
 			)
 		)
 	)
+	(gr_circle
+		(center 140 100.45)
+		(end 168 100.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e3ce1f24-921f-4aba-9614-b97af92de8f0")
+	)
 	(gr_line
 		(start 117 75.45)
 		(end 163 75.45)
