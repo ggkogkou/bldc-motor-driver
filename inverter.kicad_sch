@@ -829,7 +829,953 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bldc-driver-pcb:IPB320N20N3GATMA1"
+		(symbol "Sandbox:2159310271"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "2159310271"
+				(at -8.89 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Sandbox:CONN_2159310000-SD_02_MOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2159310271?display=pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "2159310271"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CONN_2159310000-SD_02_MOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2159310271_1_1"
+				(polyline
+					(pts
+						(xy -3.81 6.35) (xy -3.81 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -6.35) (xy 3.81 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 3.81)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 1.27)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -1.27)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -3.81)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 0 4.6567)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 0 2.9633)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0 2.1167)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0 0.4233)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0 -0.4233)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0 -2.1167)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy -3.81 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 0 -2.9633)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 0 -4.6567)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 6.35) (xy -3.81 6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.35) (xy 3.81 6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 3.81 0)
+					(length 5.08)
+					(name "1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 1.27 0)
+					(length 5.08)
+					(name "1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -1.27 0)
+					(length 5.08)
+					(name "2_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -3.81 0)
+					(length 5.08)
+					(name "2_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "2159310271_1_2"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 0)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -5.08) (xy 6.35 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 -7.62)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "2_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "2_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sandbox:43650-0303"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 9.398 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "43650-0303"
+				(at 3.556 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Sandbox:43650-03YY_03040559"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500203_sd.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 3 Circuits, with PCB Press-fit Metal Retention Clip, Glow-Wire Capable, Black"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5.57"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-43650-0303"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0303?qs=P7cO%252B%252BFDLzRIPB7V1gsyvg%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "43650-0303"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "43650-0303_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bldc-driver-pcb:IPD320N20N3GATMA1"
 			(pin_names
 				(hide yes)
 			)
@@ -845,7 +1791,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "IPB320N20N3GATMA1"
+			(property "Value" "IPD320N20N3GATMA1"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -854,7 +1800,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "bldc-driver-pcb:IPB320N20N3GATMA1"
+			(property "Footprint" "Sandbox:BTS3035TFATMA1"
 				(at 11.43 -98.73 0)
 				(effects
 					(font
@@ -864,7 +1810,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPP_B_I_320N20N3G-DS-v02_03-en.pdf?fileId=db3a3043243b5f170124967064ba184a"
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/IPD320N20N3GATMA1.pdf"
 				(at 11.43 -198.73 0)
 				(effects
 					(font
@@ -874,7 +1820,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-Channel 200 V 34A (Tc) 136W (Tc) Surface Mount PG-TO263-3"
+			(property "Description" "MOSFET N-Ch 200V 34A OptiMOS3 DPAK"
 				(at 0 0 0)
 				(effects
 					(font
@@ -883,7 +1829,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "4.82"
+			(property "Height" "2"
 				(at 11.43 -398.73 0)
 				(effects
 					(font
@@ -893,7 +1839,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "726-IPB320N20N3GATMA"
+			(property "Mouser Part Number" "726-IPD320N20N3GATMA"
 				(at 11.43 -498.73 0)
 				(effects
 					(font
@@ -903,7 +1849,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPB320N20N3GATMA1?qs=OwbwYO03UsK2VORt1hHBuw%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPD320N20N3GATMA1?qs=0DP5yvOrqYkdJUcKo7z85Q%3D%3D"
 				(at 11.43 -598.73 0)
 				(effects
 					(font
@@ -923,7 +1869,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "IPB320N20N3GATMA1"
+			(property "Manufacturer_Part_Number" "IPD320N20N3GATMA1"
 				(at 11.43 -798.73 0)
 				(effects
 					(font
@@ -933,7 +1879,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "IPB320N20N3GATMA1_1_1"
+			(symbol "IPD320N20N3GATMA1_1_1"
 				(polyline
 					(pts
 						(xy -3.81 -2.54) (xy -1.27 -2.54)
@@ -1703,6 +2649,12 @@
 		(uuid "044f839d-e807-4eb2-ae0f-b652e7bdd02f")
 	)
 	(junction
+		(at 322.58 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13fb9378-236e-414d-a65f-46e4f43063cb")
+	)
+	(junction
 		(at 180.34 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1737,6 +2689,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f5d563f-3495-432e-97fb-69487672435e")
+	)
+	(junction
+		(at 322.58 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58bbd477-379c-4764-a7e9-9ca90338d68d")
 	)
 	(junction
 		(at 180.34 217.17)
@@ -1821,6 +2779,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4b04e56-4e52-410f-99f2-bf89f837daa5")
+	)
+	(no_connect
+		(at 327.66 143.51)
+		(uuid "4aa09a5b-9efe-4cab-9849-78b33889e16a")
+	)
+	(no_connect
+		(at 327.66 140.97)
+		(uuid "724c4a0f-ffc9-42f0-807d-81dcdfb12bfe")
 	)
 	(wire
 		(pts
@@ -1941,6 +2907,16 @@
 			(type default)
 		)
 		(uuid "14e1eaf0-7872-46cc-8051-cdc54683a36a")
+	)
+	(wire
+		(pts
+			(xy 322.58 167.64) (xy 328.93 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1518adf2-bfb9-45f4-86bf-c00cdb6e3fbb")
 	)
 	(wire
 		(pts
@@ -2241,6 +3217,16 @@
 			(type default)
 		)
 		(uuid "4df24d06-d762-4607-9bbf-88786d435d28")
+	)
+	(wire
+		(pts
+			(xy 322.58 162.56) (xy 322.58 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502c0731-bb82-4cde-9e7e-a7c9c7e972b1")
 	)
 	(wire
 		(pts
@@ -2614,6 +3600,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 165.1) (xy 322.58 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5eb302-b454-4cc4-bbad-8e9e487a70f3")
+	)
+	(wire
+		(pts
 			(xy 118.11 53.34) (xy 118.11 74.93)
 		)
 		(stroke
@@ -2694,6 +3690,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 167.64) (xy 322.58 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963a0d25-0861-42d2-8eb6-a09bc1715034")
+	)
+	(wire
+		(pts
 			(xy 148.59 210.82) (xy 153.67 210.82)
 		)
 		(stroke
@@ -2711,6 +3717,26 @@
 			(type default)
 		)
 		(uuid "9bedb16f-be25-45ba-8605-53b636a61701")
+	)
+	(wire
+		(pts
+			(xy 322.58 160.02) (xy 322.58 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de19023-53e8-4b98-9530-e16694553d84")
+	)
+	(wire
+		(pts
+			(xy 328.93 165.1) (xy 322.58 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e80bc3d-b6ef-42a5-823f-93c1495602ba")
 	)
 	(wire
 		(pts
@@ -2964,6 +3990,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 162.56) (xy 322.58 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1005531-ccbf-4da5-8af2-1c7ec7641929")
+	)
+	(wire
+		(pts
 			(xy 176.53 130.81) (xy 176.53 134.62)
 		)
 		(stroke
@@ -3194,6 +4230,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 160.02) (xy 328.93 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b644b7-df23-4c87-ab19-2aaacdd152a8")
+	)
+	(wire
+		(pts
 			(xy 210.82 62.23) (xy 210.82 59.69)
 		)
 		(stroke
@@ -3284,7 +4330,18 @@
 		)
 		(uuid "281effc8-3dce-4503-9f50-dadccdf64a4d")
 	)
-	(hierarchical_label "HALF_BRIDGE_1_OUT"
+	(hierarchical_label "HALF_BRIDGE_3_OUT"
+		(shape input)
+		(at 347.98 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f6fdac3-6853-4906-aade-02fd537e415e")
+	)
+	(hierarchical_label "HALF_BRIDGE_3_OUT"
 		(shape input)
 		(at 228.6 227.33 0)
 		(effects
@@ -3294,6 +4351,17 @@
 			(justify left)
 		)
 		(uuid "2f848de8-a154-4fab-ae65-a59e85180334")
+	)
+	(hierarchical_label "HALF_BRIDGE_1_OUT"
+		(shape input)
+		(at 347.98 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3eec30c0-e5ce-4774-a100-e495d5bb7d56")
 	)
 	(hierarchical_label "HALF_BRIDGE_2_LO"
 		(shape input)
@@ -3317,7 +4385,7 @@
 		)
 		(uuid "49f086c9-a791-493e-b514-a6e840348230")
 	)
-	(hierarchical_label "HALF_BRIDGE_1_OUT"
+	(hierarchical_label "HALF_BRIDGE_2_OUT"
 		(shape input)
 		(at 228.6 144.78 0)
 		(effects
@@ -3404,6 +4472,17 @@
 			(justify right)
 		)
 		(uuid "e4bd29c9-c9cc-4fc0-b286-42f257a0bbaf")
+	)
+	(hierarchical_label "HALF_BRIDGE_2_OUT"
+		(shape input)
+		(at 347.98 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec381677-b111-4535-8dd7-2989c8797c12")
 	)
 	(hierarchical_label "HALF_BRIDGE_1_OUT"
 		(shape input)
@@ -3495,45 +4574,33 @@
 		)
 	)
 	(symbol
-		(lib_id "bldc-driver-pcb:IPB320N20N3GATMA1")
-		(at 209.55 154.94 0)
+		(lib_id "Sandbox:43650-0303")
+		(at 327.66 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "12750d93-be3a-48ad-bde5-44fc6700152c")
-		(property "Reference" "Q4"
-			(at 214.63 153.6699 0)
+		(uuid "1358e29b-6b3c-480e-9a54-bb995b2ac283")
+		(property "Reference" "J2"
+			(at 337.82 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "IPB320N20N3GATMA1"
-			(at 214.63 156.2099 0)
+		(property "Value" "43650-0303"
+			(at 337.82 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "bldc-driver-pcb:IPB320N20N3GATMA1"
-			(at 220.98 253.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPP_B_I_320N20N3G-DS-v02_03-en.pdf?fileId=db3a3043243b5f170124967064ba184a"
-			(at 220.98 353.67 0)
+		(property "Footprint" "Sandbox:43650-03YY_03040559"
+			(at 344.17 235.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,17 +4609,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-Channel 200 V 34A (Tc) 136W (Tc) Surface Mount PG-TO263-3"
-			(at 209.55 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.82"
-			(at 220.98 553.67 0)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500203_sd.pdf"
+			(at 344.17 335.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,8 +4619,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "726-IPB320N20N3GATMA"
-			(at 220.98 653.67 0)
+		(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 3 Circuits, with PCB Press-fit Metal Retention Clip, Glow-Wire Capable, Black"
+			(at 327.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.57"
+			(at 344.17 535.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,8 +4638,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPB320N20N3GATMA1?qs=OwbwYO03UsK2VORt1hHBuw%3D%3D"
-			(at 220.98 753.67 0)
+		(property "Mouser Part Number" "538-43650-0303"
+			(at 344.17 635.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,8 +4648,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 220.98 853.67 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0303?qs=P7cO%252B%252BFDLzRIPB7V1gsyvg%3D%3D"
+			(at 344.17 735.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3591,8 +4658,18 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IPB320N20N3GATMA1"
-			(at 220.98 953.67 0)
+		(property "Manufacturer_Name" "Molex"
+			(at 344.17 835.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43650-0303"
+			(at 344.17 935.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,18 +4679,24 @@
 			)
 		)
 		(pin "3"
-			(uuid "8b7e0c6b-63ad-4bd4-b63b-3d2065f91898")
-		)
-		(pin "2"
-			(uuid "2c7bcd56-fd22-46fb-86ff-93886aa57bf7")
+			(uuid "71ed3f3c-9a40-4203-99a7-2e0a8e04d14f")
 		)
 		(pin "1"
-			(uuid "98ee1946-b6f9-44d9-a8dc-c39144e7027f")
+			(uuid "a810735f-a367-4d78-8afd-2f15770951e2")
+		)
+		(pin "2"
+			(uuid "c41127c4-4902-4f4f-8fa2-d1a0e27629bf")
+		)
+		(pin "4"
+			(uuid "b57e7d0e-5c81-44bb-bf5c-f66d1d8313a5")
+		)
+		(pin "5"
+			(uuid "d68e0213-05b0-40a8-b33a-0acd18d569ad")
 		)
 		(instances
-			(project "bldc-driver-pcb"
+			(project ""
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
-					(reference "Q4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3952,7 +5035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 206.0448 0)
 			(effects
 				(font
@@ -4085,7 +5168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 130.81 0)
 			(effects
 				(font
@@ -4122,6 +5205,84 @@
 			(project "bldc-driver-pcb"
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sandbox:2159310271")
+		(at 337.82 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3532776d-f60f-4d5a-af8c-021584701899")
+		(property "Reference" "J5"
+			(at 342.9 162.5599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2159310271"
+			(at 342.9 165.0999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sandbox:CONN_2159310000-SD_02_MOL"
+			(at 337.82 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2159310271?display=pdf"
+			(at 337.82 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 337.82 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2_2"
+			(uuid "1ed342d0-a858-4d13-8e52-3d3e58c1c8b0")
+		)
+		(pin "1_2"
+			(uuid "9e545208-f7de-4dc8-bb1c-845ef3ee8e34")
+		)
+		(pin "2_1"
+			(uuid "b85d4310-807e-411d-94c8-e8d620ab68b0")
+		)
+		(pin "1_1"
+			(uuid "a25ba170-8385-4359-840a-076e1e146838")
+		)
+		(instances
+			(project ""
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4194,6 +5355,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 322.58 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ca29e8f-fa45-4b50-8c8c-ede801bd3d14")
+		(property "Reference" "#PWR050"
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 322.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 322.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc896096-bc5c-4d80-bbba-da69b33a2612")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 185.42 138.43 90)
 		(unit 1)
@@ -4218,7 +5445,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 138.43 0)
 			(effects
 				(font
@@ -4285,7 +5512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 71.12 0)
 			(effects
 				(font
@@ -4355,7 +5582,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 149.86 224.79 0)
 			(effects
 				(font
@@ -4422,7 +5649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 55.88 0)
 			(effects
 				(font
@@ -4555,7 +5782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 48.26 0)
 			(effects
 				(font
@@ -4731,131 +5958,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bldc-driver-pcb:IPB320N20N3GATMA1")
-		(at 209.55 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "574741d6-a664-43b5-86bd-7aca3d161484")
-		(property "Reference" "Q1"
-			(at 214.63 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPB320N20N3GATMA1"
-			(at 214.63 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bldc-driver-pcb:IPB320N20N3GATMA1"
-			(at 220.98 150.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPP_B_I_320N20N3G-DS-v02_03-en.pdf?fileId=db3a3043243b5f170124967064ba184a"
-			(at 220.98 250.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 200 V 34A (Tc) 136W (Tc) Surface Mount PG-TO263-3"
-			(at 209.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.82"
-			(at 220.98 450.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-IPB320N20N3GATMA"
-			(at 220.98 550.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPB320N20N3GATMA1?qs=OwbwYO03UsK2VORt1hHBuw%3D%3D"
-			(at 220.98 650.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 220.98 750.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IPB320N20N3GATMA1"
-			(at 220.98 850.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d9c0b188-56b9-4f58-bd7b-4ac83d96793f")
-		)
-		(pin "1"
-			(uuid "0200122e-6057-4a20-ba9c-911ac9bd71ed")
-		)
-		(pin "3"
-			(uuid "4feec0af-4c57-488d-9ddf-65d582803bab")
-		)
-		(instances
-			(project "bldc-driver-pcb"
-				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 189.23 236.22 90)
 		(unit 1)
@@ -4880,7 +5982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 236.22 0)
 			(effects
 				(font
@@ -4923,6 +6025,131 @@
 		)
 	)
 	(symbol
+		(lib_id "bldc-driver-pcb:IPD320N20N3GATMA1")
+		(at 209.55 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a5a52ba-df31-4dd8-a454-4a26e68fed3c")
+		(property "Reference" "Q1"
+			(at 214.63 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPD320N20N3GATMA1"
+			(at 214.63 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sandbox:BTS3035TFATMA1"
+			(at 220.98 150.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/IPD320N20N3GATMA1.pdf"
+			(at 220.98 250.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-Ch 200V 34A OptiMOS3 DPAK"
+			(at 209.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2"
+			(at 220.98 450.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-IPD320N20N3GATMA"
+			(at 220.98 550.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPD320N20N3GATMA1?qs=0DP5yvOrqYkdJUcKo7z85Q%3D%3D"
+			(at 220.98 650.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 220.98 750.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPD320N20N3GATMA1"
+			(at 220.98 850.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "286851ee-844a-48ae-b4f5-036c64fb5a1a")
+		)
+		(pin "1"
+			(uuid "4b78fdf7-28be-457c-a137-c0de5e9dd47d")
+		)
+		(pin "3"
+			(uuid "00934bde-6932-4f7a-bb78-84d6fa77946c")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 189.23 153.67 90)
 		(unit 1)
@@ -4947,7 +6174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 153.67 0)
 			(effects
 				(font
@@ -5099,7 +6326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 123.4948 0)
 			(effects
 				(font
@@ -5320,7 +6547,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 209.042 170.18 90)
 			(effects
 				(font
@@ -5436,6 +6663,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 322.58 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83c19d31-6748-41a5-8d9b-6c740778b0b2")
+		(property "Reference" "#PWR051"
+			(at 322.58 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8841433d-21ca-43e2-87f3-f3be95f0084b")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 161.29 41.91 90)
 		(unit 1)
@@ -5460,7 +6753,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 40.9448 0)
 			(effects
 				(font
@@ -5527,7 +6820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 213.36 0)
 			(effects
 				(font
@@ -5748,7 +7041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 209.042 87.63 90)
 			(effects
 				(font
@@ -5797,131 +7090,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bldc-driver-pcb:IPB320N20N3GATMA1")
-		(at 209.55 237.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "931beb82-ffd6-4e6e-9e22-ef36a6344af8")
-		(property "Reference" "Q6"
-			(at 214.63 236.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPB320N20N3GATMA1"
-			(at 214.63 238.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bldc-driver-pcb:IPB320N20N3GATMA1"
-			(at 220.98 336.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPP_B_I_320N20N3G-DS-v02_03-en.pdf?fileId=db3a3043243b5f170124967064ba184a"
-			(at 220.98 436.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 200 V 34A (Tc) 136W (Tc) Surface Mount PG-TO263-3"
-			(at 209.55 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.82"
-			(at 220.98 636.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-IPB320N20N3GATMA"
-			(at 220.98 736.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPB320N20N3GATMA1?qs=OwbwYO03UsK2VORt1hHBuw%3D%3D"
-			(at 220.98 836.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 220.98 936.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IPB320N20N3GATMA1"
-			(at 220.98 1036.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d37e9a96-aa99-4755-b999-d9b53161e85f")
-		)
-		(pin "2"
-			(uuid "326084b3-03b1-4c94-98d0-524bdbba3249")
-		)
-		(pin "1"
-			(uuid "6007a9b0-05c3-4aeb-a871-9fdf15f49ee5")
-		)
-		(instances
-			(project "bldc-driver-pcb"
-				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 185.42 220.98 90)
 		(unit 1)
@@ -5946,7 +7114,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 220.98 0)
 			(effects
 				(font
@@ -6016,7 +7184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 149.86 59.69 0)
 			(effects
 				(font
@@ -6053,131 +7221,6 @@
 			(project ""
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bldc-driver-pcb:IPB320N20N3GATMA1")
-		(at 209.55 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "995099fe-e283-4293-8776-ea72097d49e7")
-		(property "Reference" "Q2"
-			(at 214.63 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPB320N20N3GATMA1"
-			(at 214.63 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bldc-driver-pcb:IPB320N20N3GATMA1"
-			(at 220.98 171.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPP_B_I_320N20N3G-DS-v02_03-en.pdf?fileId=db3a3043243b5f170124967064ba184a"
-			(at 220.98 271.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 200 V 34A (Tc) 136W (Tc) Surface Mount PG-TO263-3"
-			(at 209.55 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.82"
-			(at 220.98 471.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-IPB320N20N3GATMA"
-			(at 220.98 571.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPB320N20N3GATMA1?qs=OwbwYO03UsK2VORt1hHBuw%3D%3D"
-			(at 220.98 671.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 220.98 771.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IPB320N20N3GATMA1"
-			(at 220.98 871.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cc7b6913-617f-43b5-ae6b-415e35f7f21a")
-		)
-		(pin "2"
-			(uuid "2ea355e1-1e99-496d-a9be-f0f1cec41aaf")
-		)
-		(pin "1"
-			(uuid "857f72e0-6868-4ee9-822b-42d3ab6515ac")
-		)
-		(instances
-			(project "bldc-driver-pcb"
-				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -6487,7 +7530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 209.042 252.73 90)
 			(effects
 				(font
@@ -6602,6 +7645,131 @@
 		)
 	)
 	(symbol
+		(lib_id "bldc-driver-pcb:IPD320N20N3GATMA1")
+		(at 209.55 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6f7d32e-5ebf-42b3-8096-0aec4cee0cbb")
+		(property "Reference" "Q3"
+			(at 214.63 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPD320N20N3GATMA1"
+			(at 214.63 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sandbox:BTS3035TFATMA1"
+			(at 220.98 233.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/IPD320N20N3GATMA1.pdf"
+			(at 220.98 333.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-Ch 200V 34A OptiMOS3 DPAK"
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2"
+			(at 220.98 533.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-IPD320N20N3GATMA"
+			(at 220.98 633.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPD320N20N3GATMA1?qs=0DP5yvOrqYkdJUcKo7z85Q%3D%3D"
+			(at 220.98 733.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 220.98 833.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPD320N20N3GATMA1"
+			(at 220.98 933.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1a780e5-cff8-4c9a-9aad-ad6b45d9df84")
+		)
+		(pin "1"
+			(uuid "1032a2d6-9fdb-400f-b280-fe65ccf95fe5")
+		)
+		(pin "3"
+			(uuid "dc6f2bb2-8946-45a4-a356-d552ee0688f4")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 210.82 95.25 0)
 		(unit 1)
@@ -6662,6 +7830,131 @@
 			(project ""
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bldc-driver-pcb:IPD320N20N3GATMA1")
+		(at 209.55 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcca21da-ad33-4ba2-850b-1380d9738a7b")
+		(property "Reference" "Q5"
+			(at 214.63 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPD320N20N3GATMA1"
+			(at 214.63 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sandbox:BTS3035TFATMA1"
+			(at 220.98 315.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/IPD320N20N3GATMA1.pdf"
+			(at 220.98 415.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-Ch 200V 34A OptiMOS3 DPAK"
+			(at 209.55 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2"
+			(at 220.98 615.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-IPD320N20N3GATMA"
+			(at 220.98 715.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPD320N20N3GATMA1?qs=0DP5yvOrqYkdJUcKo7z85Q%3D%3D"
+			(at 220.98 815.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 220.98 915.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPD320N20N3GATMA1"
+			(at 220.98 1015.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a77d0c97-bb90-4e76-8e29-24b3381f9110")
+		)
+		(pin "1"
+			(uuid "cc08379a-84d1-4c15-b899-7edad633f004")
+		)
+		(pin "3"
+			(uuid "8b881731-7923-454d-a87e-015fa100cc78")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -6887,17 +8180,17 @@
 		)
 	)
 	(symbol
-		(lib_id "bldc-driver-pcb:IPB320N20N3GATMA1")
-		(at 209.55 134.62 0)
+		(lib_id "bldc-driver-pcb:IPD320N20N3GATMA1")
+		(at 209.55 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ca50ac68-8061-4990-80d8-3ff103df8249")
-		(property "Reference" "Q3"
-			(at 214.63 133.3499 0)
+		(uuid "cb035f18-9b2f-409d-b480-410f5d634652")
+		(property "Reference" "Q2"
+			(at 214.63 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,8 +8198,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IPB320N20N3GATMA1"
-			(at 214.63 135.8899 0)
+		(property "Value" "IPD320N20N3GATMA1"
+			(at 214.63 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6914,8 +8207,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bldc-driver-pcb:IPB320N20N3GATMA1"
-			(at 220.98 233.35 0)
+		(property "Footprint" "Sandbox:BTS3035TFATMA1"
+			(at 220.98 171.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6924,8 +8217,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPP_B_I_320N20N3G-DS-v02_03-en.pdf?fileId=db3a3043243b5f170124967064ba184a"
-			(at 220.98 333.35 0)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/IPD320N20N3GATMA1.pdf"
+			(at 220.98 271.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6934,8 +8227,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-Channel 200 V 34A (Tc) 136W (Tc) Surface Mount PG-TO263-3"
-			(at 209.55 134.62 0)
+		(property "Description" "MOSFET N-Ch 200V 34A OptiMOS3 DPAK"
+			(at 209.55 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6943,18 +8236,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "4.82"
-			(at 220.98 533.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-IPB320N20N3GATMA"
-			(at 220.98 633.35 0)
+		(property "Height" "2"
+			(at 220.98 471.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6963,8 +8246,18 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPB320N20N3GATMA1?qs=OwbwYO03UsK2VORt1hHBuw%3D%3D"
-			(at 220.98 733.35 0)
+		(property "Mouser Part Number" "726-IPD320N20N3GATMA"
+			(at 220.98 571.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPD320N20N3GATMA1?qs=0DP5yvOrqYkdJUcKo7z85Q%3D%3D"
+			(at 220.98 671.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,7 +8267,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Infineon"
-			(at 220.98 833.35 0)
+			(at 220.98 771.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6983,8 +8276,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IPB320N20N3GATMA1"
-			(at 220.98 933.35 0)
+		(property "Manufacturer_Part_Number" "IPD320N20N3GATMA1"
+			(at 220.98 871.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6994,18 +8287,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "dffebe5a-f286-433d-a0f7-43b214fc982f")
+			(uuid "bc8a5226-be44-41b7-8583-ef8bb6c7e529")
 		)
 		(pin "1"
-			(uuid "976fe7a7-3009-4d91-ba4c-d2dfdac68da7")
+			(uuid "697839c4-1c48-4319-897a-ce6bcf0278f1")
 		)
 		(pin "3"
-			(uuid "f6860d0e-3163-44e0-a5fc-e6ca8a1143b3")
+			(uuid "06631d2a-bcfa-4958-a1c3-beebc81ed75f")
 		)
 		(instances
 			(project "bldc-driver-pcb"
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -7036,7 +8329,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 243.84 0)
 			(effects
 				(font
@@ -7146,6 +8439,131 @@
 		)
 	)
 	(symbol
+		(lib_id "bldc-driver-pcb:IPD320N20N3GATMA1")
+		(at 209.55 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e00fda1f-c75b-46c0-ab8e-ae54b23a5c99")
+		(property "Reference" "Q4"
+			(at 214.63 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPD320N20N3GATMA1"
+			(at 214.63 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sandbox:BTS3035TFATMA1"
+			(at 220.98 253.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/IPD320N20N3GATMA1.pdf"
+			(at 220.98 353.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-Ch 200V 34A OptiMOS3 DPAK"
+			(at 209.55 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2"
+			(at 220.98 553.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-IPD320N20N3GATMA"
+			(at 220.98 653.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPD320N20N3GATMA1?qs=0DP5yvOrqYkdJUcKo7z85Q%3D%3D"
+			(at 220.98 753.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 220.98 853.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPD320N20N3GATMA1"
+			(at 220.98 953.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7419c8d9-b591-408d-92ab-a42e5066bfff")
+		)
+		(pin "1"
+			(uuid "8663c2b2-be44-40ad-b902-1fe22c9b76cf")
+		)
+		(pin "3"
+			(uuid "a0326e88-a070-49e0-a49e-0c68f9f53453")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 149.86 142.24 180)
 		(unit 1)
@@ -7173,7 +8591,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 149.86 142.24 0)
 			(effects
 				(font
@@ -7216,17 +8634,17 @@
 		)
 	)
 	(symbol
-		(lib_id "bldc-driver-pcb:IPB320N20N3GATMA1")
-		(at 209.55 217.17 0)
+		(lib_id "bldc-driver-pcb:IPD320N20N3GATMA1")
+		(at 209.55 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e54bad36-c934-47aa-abfe-0316a54de109")
-		(property "Reference" "Q5"
-			(at 214.63 215.8999 0)
+		(uuid "e402ded5-e14d-42b4-ae7f-aeccd1a8a72f")
+		(property "Reference" "Q6"
+			(at 214.63 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,8 +8652,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IPB320N20N3GATMA1"
-			(at 214.63 218.4399 0)
+		(property "Value" "IPD320N20N3GATMA1"
+			(at 214.63 238.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,8 +8661,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bldc-driver-pcb:IPB320N20N3GATMA1"
-			(at 220.98 315.9 0)
+		(property "Footprint" "Sandbox:BTS3035TFATMA1"
+			(at 220.98 336.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7253,8 +8671,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPP_B_I_320N20N3G-DS-v02_03-en.pdf?fileId=db3a3043243b5f170124967064ba184a"
-			(at 220.98 415.9 0)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/IPD320N20N3GATMA1.pdf"
+			(at 220.98 436.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,8 +8681,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-Channel 200 V 34A (Tc) 136W (Tc) Surface Mount PG-TO263-3"
-			(at 209.55 217.17 0)
+		(property "Description" "MOSFET N-Ch 200V 34A OptiMOS3 DPAK"
+			(at 209.55 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,18 +8690,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "4.82"
-			(at 220.98 615.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-IPB320N20N3GATMA"
-			(at 220.98 715.9 0)
+		(property "Height" "2"
+			(at 220.98 636.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,8 +8700,18 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPB320N20N3GATMA1?qs=OwbwYO03UsK2VORt1hHBuw%3D%3D"
-			(at 220.98 815.9 0)
+		(property "Mouser Part Number" "726-IPD320N20N3GATMA"
+			(at 220.98 736.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPD320N20N3GATMA1?qs=0DP5yvOrqYkdJUcKo7z85Q%3D%3D"
+			(at 220.98 836.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7303,7 +8721,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Infineon"
-			(at 220.98 915.9 0)
+			(at 220.98 936.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7312,8 +8730,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IPB320N20N3GATMA1"
-			(at 220.98 1015.9 0)
+		(property "Manufacturer_Part_Number" "IPD320N20N3GATMA1"
+			(at 220.98 1036.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7323,18 +8741,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "ce8f5ac9-5afd-4714-a009-be9220938f94")
+			(uuid "146b1588-2a89-48ca-b768-32d6f46b2074")
 		)
 		(pin "1"
-			(uuid "9967d130-01b0-446f-bde2-becaaf341fbb")
+			(uuid "fc1deee8-7a69-4796-a110-279c14ce14a9")
 		)
 		(pin "3"
-			(uuid "7efb9959-035c-4dc3-9514-2d643611f82d")
+			(uuid "13eecef8-5c4f-43b3-80ba-9eb73f803cd9")
 		)
 		(instances
 			(project "bldc-driver-pcb"
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
-					(reference "Q5")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -7365,7 +8783,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 161.29 0)
 			(effects
 				(font
@@ -7498,7 +8916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 78.74 0)
 			(effects
 				(font
