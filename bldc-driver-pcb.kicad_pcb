@@ -22313,6 +22313,66 @@
 			)
 		)
 	)
+	(gr_line
+		(start 122 110.5)
+		(end 123.5 110.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "581f65cb-11dc-4d48-b385-981474ae790f")
+	)
+	(gr_line
+		(start 123.5 110.5)
+		(end 123.5 113)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "709aa79b-e2e8-4958-95b4-98f2d99c17f8")
+	)
+	(gr_line
+		(start 123.5 113)
+		(end 123.5 114.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "85670688-5458-40fb-b095-111c2e29292d")
+	)
+	(gr_line
+		(start 123.5 114.5)
+		(end 122 114.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f6675ba-c7a0-49c3-8179-4b55b1d4ac48")
+	)
+	(gr_line
+		(start 123.5 113)
+		(end 122 113)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b517cba2-fe78-48ce-b8fa-8980be36dbc8")
+	)
+	(gr_line
+		(start 123.5 113)
+		(end 124 113)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d045fcf8-0b7b-4341-be67-28a416876f2b")
+	)
 	(gr_circle
 		(center 140 100.45)
 		(end 165 100.45)
@@ -22415,6 +22475,19 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "be39d5dd-6cb2-4367-98d9-3dc3506e4bba")
+	)
+	(gr_text "Motor\nPhases"
+		(at 124.15 114.85 0)
+		(layer "F.SilkS")
+		(uuid "60b1b3b5-09b0-4249-a634-4c9e8fb5c9c9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "BLDC Motor Driver\nSensored FOC"
 		(at 157.65 122.8 0)
