@@ -771,6 +771,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bldc-driver-pcb:505567-0471"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -1.016 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "505567-0471"
+				(at -6.604 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "bldc-driver-pcb:5055670471"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.molex.com/webdocs/datasheets/pdf/en-us//5055670471_PCB_HEADERS.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOLEX - 505567-0471. - CONNECTOR, HEADER, 4POS, 1ROW, 1.25MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "3"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-505567-0471"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/505567-0471?qs=gt1LBUVyoHnKtp3R0Oh0Cg%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "505567-0471"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "505567-0471_1_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 3.81 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 1.27 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -1.27 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -3.81 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 3.81 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 1.27 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bldc-driver-pcb:IPD320N20N3GATMA1"
 			(pin_names
 				(hide yes)
@@ -1836,6 +2060,14 @@
 		(color 0 0 0 0)
 		(uuid "f9498900-514c-4229-ba6b-4955ce59d9f3")
 	)
+	(no_connect
+		(at 349.25 142.24)
+		(uuid "098689b2-f3f7-4095-ac06-420e5b02019d")
+	)
+	(no_connect
+		(at 349.25 139.7)
+		(uuid "816074f7-1b4a-4aab-adfd-7cc2a6b87b88")
+	)
 	(wire
 		(pts
 			(xy 153.67 124.46) (xy 157.48 124.46)
@@ -1895,6 +2127,16 @@
 			(type default)
 		)
 		(uuid "08c0eea2-184a-40a3-adf0-96fd41908912")
+	)
+	(wire
+		(pts
+			(xy 326.39 142.24) (xy 328.93 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0aafda-ce21-4b86-ad96-05027d889ddf")
 	)
 	(wire
 		(pts
@@ -2658,6 +2900,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 144.78) (xy 328.93 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c4bec2-2503-4078-9b14-60107d931148")
+	)
+	(wire
+		(pts
 			(xy 218.44 76.2) (xy 218.44 74.93)
 		)
 		(stroke
@@ -3208,6 +3460,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 147.32) (xy 328.93 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d381122a-cf15-433a-b10b-523be5fa0838")
+	)
+	(wire
+		(pts
 			(xy 195.58 243.84) (xy 198.12 243.84)
 		)
 		(stroke
@@ -3498,6 +3760,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 139.7) (xy 328.93 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5322fe8-5827-4a32-930b-cd08910cbc8f")
+	)
+	(wire
+		(pts
 			(xy 191.77 41.91) (xy 185.42 41.91)
 		)
 		(stroke
@@ -3653,6 +3925,17 @@
 		)
 		(uuid "6f59e616-af45-472d-aa35-4f536816c237")
 	)
+	(hierarchical_label "HALF_BRIDGE_1_OUT"
+		(shape input)
+		(at 326.39 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f469564-4557-4cd6-8192-4a47c603adc3")
+	)
 	(hierarchical_label "HALF_BRIDGE_3_HI"
 		(shape input)
 		(at 120.65 210.82 180)
@@ -3697,6 +3980,17 @@
 		)
 		(uuid "b59ba5d4-5b99-44c4-9f3d-74b82a0e7296")
 	)
+	(hierarchical_label "HALF_BRIDGE_2_OUT"
+		(shape input)
+		(at 326.39 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3bcf1fa-d470-406c-b78a-2493fb195015")
+	)
 	(hierarchical_label "CSA_1_IN-"
 		(shape input)
 		(at 256.54 90.17 0)
@@ -3740,6 +4034,17 @@
 			(justify left)
 		)
 		(uuid "f7b30cc1-d9df-4ed4-b924-0e96856c40a7")
+	)
+	(hierarchical_label "HALF_BRIDGE_3_OUT"
+		(shape input)
+		(at 326.39 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd979e8f-8d36-4af3-a81e-27038d5562b2")
 	)
 	(symbol
 		(lib_id "power:VBUS")
@@ -4456,6 +4761,73 @@
 			(project ""
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
 					(reference "Rshunt1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 326.39 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ee50c66-9d4c-41fb-8112-2cc8d5ae9cae")
+		(property "Reference" "#PWR036"
+			(at 320.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 326.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be406224-9a24-45fa-b62c-d233b2a5260b")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8520,6 +8892,138 @@
 			(project "bldc-driver-pcb"
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bldc-driver-pcb:505567-0471")
+		(at 339.09 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9aa1434-83fd-49ef-8686-99be5b2b0adc")
+		(property "Reference" "J2"
+			(at 339.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "505567-0471"
+			(at 339.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bldc-driver-pcb:5055670471"
+			(at 355.6 238.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.molex.com/webdocs/datasheets/pdf/en-us//5055670471_PCB_HEADERS.pdf"
+			(at 355.6 338.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOLEX - 505567-0471. - CONNECTOR, HEADER, 4POS, 1ROW, 1.25MM"
+			(at 339.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3"
+			(at 355.6 538.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-505567-0471"
+			(at 355.6 638.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/505567-0471?qs=gt1LBUVyoHnKtp3R0Oh0Cg%3D%3D"
+			(at 355.6 738.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 355.6 838.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "505567-0471"
+			(at 355.6 938.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "002c2445-dfc8-4210-9105-294221224c62")
+		)
+		(pin "6"
+			(uuid "a9f4b9ce-6973-4f7b-a742-b01b8a5abaad")
+		)
+		(pin "4"
+			(uuid "84159d89-486e-47bd-bd05-134831503039")
+		)
+		(pin "5"
+			(uuid "fb9e76dd-90d8-497a-9c87-6204dbfe75e0")
+		)
+		(pin "1"
+			(uuid "4e32ea1c-75f3-4d20-a0ad-ed079b744acb")
+		)
+		(pin "3"
+			(uuid "47fbdb9b-9a16-42e5-8162-2128f0791854")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/b0aaaa38-f8de-49d9-9fd8-de5c0c3a897c"
+					(reference "J2")
 					(unit 1)
 				)
 			)
