@@ -431,338 +431,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sandbox:G125-MH11205L1P"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -1.27 13.716 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "G125-MH11205L1P"
-				(at -9.652 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Sandbox:G125-MH11205L1P"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn.harwin.com/pdfs/G125-MHXXX05L1P.pdf"
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Gecko DIL Male Horizontal 3.3mm Throughboard Connector, Latches for 1.6mm thick PCB, gold, pick &amp; place (cut tape packing), 12 contacts"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "5.55"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "855-G125-MH11205L1P"
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/G125-MH11205L1P?qs=kxSDgj%2F7uun1m2HMxKTm5Q%3D%3D"
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Harwin"
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "G125-MH11205L1P"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "G125-MH11205L1P_1_1"
-				(rectangle
-					(start -6.35 8.89)
-					(end 6.35 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -11.43 6.35 0)
-					(length 5.08)
-					(name "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 3.81 0)
-					(length 5.08)
-					(name "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 1.27 0)
-					(length 5.08)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -1.27 0)
-					(length 5.08)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -3.81 0)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -6.35 0)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 6.35 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 3.81 180)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 1.27 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -1.27 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -3.81 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -6.35 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bldc-driver-pcb:ATSAMD21G18A-AFT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2021,7 +1689,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bldc-driver-pcb:USB3135-XX-X_REVB"
+		(symbol "bldc-driver-pcb:USB3140-30-0170-1-C"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2029,7 +1697,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -5.0886 10.1771 0)
+				(at -1.016 13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2037,16 +1705,16 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "USB3135-XX-X_REVB"
-				(at -5.0846 -12.7114 0)
+			(property "Value" "USB3140-30-0170-1-C"
+				(at -12.7 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "bldc-driver-pcb:GCT_USB3135-XX-X_REVB"
+			(property "Footprint" "bldc-driver-pcb:USB31403001700C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2084,7 +1752,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2114,7 +1782,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/USB3135-30-A/Global+Connector+Technology/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/USB3140-30-0170-1-C/Global+Connector+Technology/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2124,7 +1792,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB3135-30-A/Global+Connector+Technology/view-part/?ref=snap"
+			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2134,7 +1802,47 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "USB3135-30-A"
+			(property "PARTREV" "E1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB3140-30-0170-1-C/Global+Connector+Technology/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "USB3140-30-0170-1-C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=222535&manufacturer=Global Connector Technology&part_name=USB3140-30-0170-1-C&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nUSB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Through Hole\n"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2154,7 +1862,7 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "GCT"
+			(property "MANUFACTURER" "Global Connector Technology"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2164,7 +1872,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB3135-XX-X_REVB_0_0"
+			(symbol "USB3140-30-0170-1-C_0_0"
 				(rectangle
 					(start -5.08 -10.16)
 					(end 5.08 10.16)
@@ -2266,17 +1974,19 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 -7.62 0)
+			)
+			(symbol "USB3140-30-0170-1-C_1_0"
+				(pin power_in line
+					(at -10.16 -6.35 0)
 					(length 5.08)
-					(name "SHIELD"
+					(name "MH1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "6"
+					(number "MH1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2284,56 +1994,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 -7.62 0)
+				(pin power_in line
+					(at -10.16 -8.89 0)
 					(length 5.08)
-					(hide yes)
-					(name "SHIELD"
+					(name "MH2"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -7.62 0)
-					(length 5.08)
-					(hide yes)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -7.62 0)
-					(length 5.08)
-					(hide yes)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
+					(number "MH2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2904,6 +2575,27 @@
 		)
 		(uuid "8331c6d8-fa7f-4584-adc6-35f0b277e286")
 	)
+	(text "Low-Impedance path to GND\nInvestigate 0.1uF//1MΩ"
+		(exclude_from_sim no)
+		(at 169.164 71.882 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a73e1fb3-4e42-4dc2-b8de-25b5e2655b8d")
+	)
+	(text "Tie ID pin to GND"
+		(exclude_from_sim no)
+		(at 150.114 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8b807c7-63bc-4c83-984b-2ad8216afead")
+	)
 	(text_box "Use either external:\n- Clock source (e.g. TCXO) and leave XOUT NC\n- Crystal oscillator"
 		(exclude_from_sim no)
 		(at 24.13 231.14 0)
@@ -3057,6 +2749,12 @@
 		(uuid "129b8977-9575-4419-af3a-a863166c641c")
 	)
 	(junction
+		(at 123.19 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39bc4a3f-b2d4-4a02-a2d5-6d2210f53346")
+	)
+	(junction
 		(at 102.87 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3073,6 +2771,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77abf152-0c99-4e7f-ac52-83ed87e03217")
+	)
+	(junction
+		(at 160.02 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af51764f-f9fa-4f72-b955-445d8146bc0e")
 	)
 	(junction
 		(at 265.43 172.72)
@@ -3093,18 +2797,6 @@
 		(uuid "bea2e869-cf9b-4fff-af9a-115aa99632b9")
 	)
 	(junction
-		(at 158.75 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d38f7e36-e713-4cb7-a3da-7956521c53fd")
-	)
-	(junction
-		(at 147.32 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbee2c66-b8eb-4992-895f-935d50701103")
-	)
-	(junction
 		(at 226.06 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3121,12 +2813,16 @@
 		(uuid "03b0231e-4d8e-4ec0-ab6e-6f23fb64b79f")
 	)
 	(no_connect
+		(at 168.91 63.5)
+		(uuid "1d450362-830b-4163-9764-ba0cfd7ca05b")
+	)
+	(no_connect
 		(at 97.79 101.6)
 		(uuid "1fc4b17a-ed14-4019-8552-1339e0dd7dcb")
 	)
 	(no_connect
-		(at 153.67 77.47)
-		(uuid "2af65bc5-ed89-4cef-9f1f-711ec7b375bc")
+		(at 123.19 101.6)
+		(uuid "24859641-4ed8-4526-8fda-1a30adb98689")
 	)
 	(no_connect
 		(at 280.67 83.82)
@@ -3147,10 +2843,6 @@
 	(no_connect
 		(at 255.27 83.82)
 		(uuid "b4d9f521-94df-434d-9307-82b40bc999b1")
-	)
-	(no_connect
-		(at 123.19 171.45)
-		(uuid "dd4eb54a-9dde-46a4-8e37-4fcd5932a8b2")
 	)
 	(no_connect
 		(at 87.63 149.86)
@@ -3203,16 +2895,6 @@
 			(type default)
 		)
 		(uuid "05e853da-38c1-4d4b-98df-9de3b1ead657")
-	)
-	(wire
-		(pts
-			(xy 123.19 172.72) (xy 123.19 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e0650d7-8f11-4b91-b518-8a8f1083cb7f")
 	)
 	(wire
 		(pts
@@ -3406,16 +3088,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 72.39) (xy 147.32 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4332be08-166e-4b18-9255-f51d3585f973")
-	)
-	(wire
-		(pts
 			(xy 269.24 226.06) (xy 269.24 224.79)
 		)
 		(stroke
@@ -3433,6 +3105,26 @@
 			(type default)
 		)
 		(uuid "44aa19ed-698c-427a-9903-7573d8a8e8d8")
+	)
+	(wire
+		(pts
+			(xy 168.91 57.15) (xy 160.02 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44cb6dfe-932a-4b50-9097-17632c03e67c")
+	)
+	(wire
+		(pts
+			(xy 160.02 59.69) (xy 160.02 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b1821e-58a1-4cc6-84ac-67cae99c8d42")
 	)
 	(wire
 		(pts
@@ -3456,26 +3148,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 69.85) (xy 147.32 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cdaf116-93af-4a0c-a46b-24d62e67eaa6")
-	)
-	(wire
-		(pts
-			(xy 158.75 96.52) (xy 158.75 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e40cdcc-26af-4078-ba52-b9a5c32a5e4d")
-	)
-	(wire
-		(pts
 			(xy 85.09 139.7) (xy 87.63 139.7)
 		)
 		(stroke
@@ -3486,6 +3158,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 171.45) (xy 123.19 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e61cdaa-8d23-4ea4-829f-552fc7b321ca")
+	)
+	(wire
+		(pts
 			(xy 226.06 139.7) (xy 226.06 151.13)
 		)
 		(stroke
@@ -3493,6 +3175,16 @@
 			(type default)
 		)
 		(uuid "5135c9a0-b3ce-4a40-bb34-5550b1adfc1c")
+	)
+	(wire
+		(pts
+			(xy 160.02 49.53) (xy 160.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5326d67f-7384-4e29-af93-facf234b9e75")
 	)
 	(wire
 		(pts
@@ -3576,6 +3268,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 171.45) (xy 123.19 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63654812-ac70-469e-bfee-8fe01c4632cd")
+	)
+	(wire
+		(pts
 			(xy 85.09 142.24) (xy 87.63 142.24)
 		)
 		(stroke
@@ -3586,23 +3288,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 99.06) (xy 158.75 96.52)
+			(xy 166.37 66.04) (xy 166.37 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e2a6c15-a966-4ffb-a041-cbc5b046dd6f")
+		(uuid "66ed73fe-c449-431d-813e-3c2194f2db05")
 	)
 	(wire
 		(pts
-			(xy 153.67 72.39) (xy 147.32 72.39)
+			(xy 168.91 59.69) (xy 160.02 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "710a4035-9321-4c3a-ab65-7174f65c7f09")
+		(uuid "6fead069-6fbb-4570-8c55-043bd4cad54e")
 	)
 	(wire
 		(pts
@@ -3666,16 +3368,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 99.06) (xy 158.75 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84d18ef0-931c-4553-9ed4-ea4cc5a0cb66")
-	)
-	(wire
-		(pts
 			(xy 85.09 121.92) (xy 87.63 121.92)
 		)
 		(stroke
@@ -3693,16 +3385,6 @@
 			(type default)
 		)
 		(uuid "856cfc8e-0205-4021-a011-1428e3cbcfab")
-	)
-	(wire
-		(pts
-			(xy 147.32 69.85) (xy 147.32 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a1c831-64b6-469b-943a-b2d37b865070")
 	)
 	(wire
 		(pts
@@ -3876,16 +3558,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 62.23) (xy 148.59 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac0ec200-f2f6-4fa3-acea-a65f9a2f2731")
-	)
-	(wire
-		(pts
 			(xy 120.65 99.06) (xy 120.65 101.6)
 		)
 		(stroke
@@ -3893,16 +3565,6 @@
 			(type default)
 		)
 		(uuid "bbbd14e7-405c-4930-8a02-eb3de15a949d")
-	)
-	(wire
-		(pts
-			(xy 153.67 62.23) (xy 148.59 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c41c6eef-6ac6-4548-851f-9d87eaee6864")
 	)
 	(wire
 		(pts
@@ -3953,6 +3615,16 @@
 			(type default)
 		)
 		(uuid "cf5ad8fe-7843-40ba-b1dd-d4fa43595ee9")
+	)
+	(wire
+		(pts
+			(xy 123.19 171.45) (xy 128.27 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe0af22-e4ba-4fa7-8973-601f9bf9df62")
 	)
 	(wire
 		(pts
@@ -4016,26 +3688,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 99.06) (xy 123.19 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3a6b43b-34ae-408c-ae27-84f82368a8fc")
-	)
-	(wire
-		(pts
-			(xy 158.75 96.52) (xy 165.1 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e753dded-e431-40dc-8d43-f6722c624982")
-	)
-	(wire
-		(pts
 			(xy 133.35 121.92) (xy 130.81 121.92)
 		)
 		(stroke
@@ -4086,6 +3738,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 57.15) (xy 160.02 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1adeba4-e251-4bac-9fd5-f74e8e629cef")
+	)
+	(wire
+		(pts
+			(xy 168.91 66.04) (xy 166.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33630a5-f1aa-4091-b700-9c16ca4ae018")
+	)
+	(wire
+		(pts
 			(xy 248.92 76.2) (xy 248.92 73.66)
 		)
 		(stroke
@@ -4113,6 +3785,16 @@
 			(type default)
 		)
 		(uuid "f7df5890-7b76-4aca-8365-35455a69422f")
+	)
+	(wire
+		(pts
+			(xy 160.02 49.53) (xy 168.91 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b10501-1c97-4075-895c-4c1f725d6e10")
 	)
 	(image
 		(at 349.25 182.88)
@@ -12116,6 +11798,17 @@
 		)
 		(uuid "3a5f3748-c118-4ce1-9cb9-5bc49f65e3fc")
 	)
+	(hierarchical_label "USB_D+"
+		(shape input)
+		(at 168.91 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c54f824-45a9-4fc4-a550-643f667420ce")
+	)
 	(hierarchical_label "SERCOM5_PAD3"
 		(shape input)
 		(at 133.35 137.16 0)
@@ -12126,17 +11819,6 @@
 			(justify left)
 		)
 		(uuid "5811323f-eca3-4f85-9eba-3bcff8465e9c")
-	)
-	(hierarchical_label "SERCOM3_PAD0"
-		(shape input)
-		(at 187.96 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "585cec46-3501-43a8-9acd-4cbb2d2d5fe3")
 	)
 	(hierarchical_label "TCC0_WO0"
 		(shape input)
@@ -12160,17 +11842,6 @@
 		)
 		(uuid "6e6402aa-e7c1-4e4f-bdf8-56bdc8c1ac96")
 	)
-	(hierarchical_label "SERCOM5_PAD2"
-		(shape input)
-		(at 187.96 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "72da0ea8-0ff1-4eb9-9d27-93937bc8ef4a")
-	)
 	(hierarchical_label "ADC_AIN2"
 		(shape input)
 		(at 85.09 137.16 180)
@@ -12193,17 +11864,6 @@
 		)
 		(uuid "81d4f540-0df1-43ec-91b1-fd5edb934b37")
 	)
-	(hierarchical_label "SERCOM3_PAD1"
-		(shape input)
-		(at 187.96 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "830f3af1-8d84-4a42-9154-50ff923afc7c")
-	)
 	(hierarchical_label "TCC0_WO2"
 		(shape input)
 		(at 100.33 172.72 270)
@@ -12215,16 +11875,16 @@
 		)
 		(uuid "83e60b91-d030-4342-8919-710ff7c25d3c")
 	)
-	(hierarchical_label "DRV8316_CSn"
+	(hierarchical_label "USB_D-"
 		(shape input)
-		(at 165.1 109.22 180)
+		(at 168.91 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8ae3b8fa-513f-44b5-be32-d52ff0169115")
+		(uuid "8ad1878d-ab10-4d88-9655-02f048449695")
 	)
 	(hierarchical_label "TCC0_WO5"
 		(shape input)
@@ -12258,17 +11918,6 @@
 			(justify left)
 		)
 		(uuid "90ab8570-181a-45f3-9c0e-7609e1c63c39")
-	)
-	(hierarchical_label "USB_D-"
-		(shape input)
-		(at 153.67 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "94dae6d4-4d6d-44c7-a018-b4fabbfc4d9e")
 	)
 	(hierarchical_label "VDDIN"
 		(shape input)
@@ -12305,6 +11954,17 @@
 	)
 	(hierarchical_label "XOUT"
 		(shape input)
+		(at 128.27 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6d95388-f17c-46ea-b322-823ed7891c72")
+	)
+	(hierarchical_label "ENCODER_CSn"
+		(shape input)
 		(at 123.19 172.72 270)
 		(effects
 			(font
@@ -12312,7 +11972,7 @@
 			)
 			(justify right)
 		)
-		(uuid "a6d95388-f17c-46ea-b322-823ed7891c72")
+		(uuid "aabe25d7-cbfd-442a-b3f9-27618cff3476")
 	)
 	(hierarchical_label "TCC0_WO7"
 		(shape input)
@@ -12412,39 +12072,6 @@
 			(justify right)
 		)
 		(uuid "cd1a7baa-f225-4373-b6c4-91e5be4159e2")
-	)
-	(hierarchical_label "SERCOM5_PAD3"
-		(shape input)
-		(at 187.96 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d1139a9f-2e02-421b-8f2d-a32e2304b96b")
-	)
-	(hierarchical_label "ENCODER_CSn"
-		(shape input)
-		(at 123.19 99.06 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d142b586-629b-49e0-9991-8d6c6e10cd10")
-	)
-	(hierarchical_label "USB_D+"
-		(shape input)
-		(at 153.67 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d2d67257-06e9-465a-b0f1-915969a40665")
 	)
 	(hierarchical_label "TCC0_WO4"
 		(shape input)
@@ -12735,289 +12362,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sandbox:G125-MH11205L1P")
-		(at 176.53 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10b430a0-bd57-4e1a-8352-e7de36312715")
-		(property "Reference" "J3"
-			(at 176.53 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "G125-MH11205L1P"
-			(at 176.53 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Sandbox:G125-MH11205L1P"
-			(at 195.58 197.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.harwin.com/pdfs/G125-MHXXX05L1P.pdf"
-			(at 195.58 297.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Gecko DIL Male Horizontal 3.3mm Throughboard Connector, Latches for 1.6mm thick PCB, gold, pick &amp; place (cut tape packing), 12 contacts"
-			(at 176.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "5.55"
-			(at 195.58 497.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "855-G125-MH11205L1P"
-			(at 195.58 597.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/G125-MH11205L1P?qs=kxSDgj%2F7uun1m2HMxKTm5Q%3D%3D"
-			(at 195.58 697.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin"
-			(at 195.58 797.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "G125-MH11205L1P"
-			(at 195.58 897.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "36fa2928-a210-4eec-9d71-bb052e0739fb")
-		)
-		(pin "9"
-			(uuid "f4d8c08a-2f00-4660-9b46-27556a1b5fcc")
-		)
-		(pin "11"
-			(uuid "5e7b5775-5149-475a-a7f6-5d69f00bc99f")
-		)
-		(pin "4"
-			(uuid "ccec5207-32ec-4901-a747-71de4725d6ee")
-		)
-		(pin "3"
-			(uuid "f61292f9-f822-4705-b52d-f4dadea90a73")
-		)
-		(pin "2"
-			(uuid "66dfed45-8058-4f68-8e0d-fcfd538e5565")
-		)
-		(pin "1"
-			(uuid "09579e3e-9540-48c7-b83c-51369048e979")
-		)
-		(pin "6"
-			(uuid "30a83d09-aa68-4945-88b8-f6f8f140def6")
-		)
-		(pin "7"
-			(uuid "99f791bd-f783-45ca-9464-eddbb58de0a6")
-		)
-		(pin "5"
-			(uuid "9e9b0153-352a-48c7-bde0-85f335d118f0")
-		)
-		(pin "12"
-			(uuid "50b0d42b-3710-4330-a870-34b16b08adfc")
-		)
-		(pin "10"
-			(uuid "962ef190-8dfa-449a-ae60-8fc15ffe2ce8")
-		)
-		(instances
-			(project ""
-				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 187.96 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16edc7b8-e8cd-4341-bbd1-f352ba8e2f74")
-		(property "Reference" "#PWR042"
-			(at 194.31 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "447d7bba-75ff-4b97-a3c0-8a78e30bfd0d")
-		)
-		(instances
-			(project "bldc-driver-pcb"
-				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 148.59 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "241ee450-c448-42e7-8e8c-ff91f46c0c8a")
-		(property "Reference" "#PWR048"
-			(at 148.59 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 148.59 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 148.59 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6498ef51-09b5-4ec7-b40a-55b0244b1df5")
-		)
-		(instances
-			(project ""
-				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 271.78 204.47 0)
 		(unit 1)
@@ -13150,188 +12494,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bldc-driver-pcb:USB3135-XX-X_REVB")
-		(at 163.83 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39a47c05-4c21-4810-9398-d40ad7322e73")
-		(property "Reference" "J4"
-			(at 170.18 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB3135-XX-X_REVB"
-			(at 170.18 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bldc-driver-pcb:GCT_USB3135-XX-X_REVB"
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Global Connector Technology"
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole"
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/USB3135-30-A/Global+Connector+Technology/view-part/?ref=eda"
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB3135-30-A/Global+Connector+Technology/view-part/?ref=snap"
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "USB3135-30-A"
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "GCT"
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9b31b369-122d-4a82-9401-4d0a3345a80f")
-		)
-		(pin "1"
-			(uuid "76864af9-c187-476d-b434-fb9f957ae97f")
-		)
-		(pin "8"
-			(uuid "ec0e638d-8d02-460e-b407-b77c91165966")
-		)
-		(pin "9"
-			(uuid "f6bda717-9d64-424a-993d-9481ac7c1145")
-		)
-		(pin "3"
-			(uuid "721cf954-b6d7-4021-a559-02ca6b3b89d0")
-		)
-		(pin "7"
-			(uuid "35d96c6c-a221-4c9d-8ca1-ad6b122cc1ed")
-		)
-		(pin "6"
-			(uuid "156b4b0b-d838-4771-a9ff-867651e9c7b2")
-		)
-		(pin "5"
-			(uuid "e437d2ce-4f08-4427-9b90-558f7d110700")
-		)
-		(pin "4"
-			(uuid "9909e48f-4c65-4b86-92ac-7151971fac8a")
-		)
-		(instances
-			(project ""
-				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 265.43 184.15 0)
 		(unit 1)
@@ -13392,72 +12554,6 @@
 			(project "bldc-driver-pcb"
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 158.75 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d82ed54-7667-44e0-80c1-7631ba8394db")
-		(property "Reference" "#PWR046"
-			(at 158.75 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 158.75 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 158.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f4352b9-81d1-4c57-944d-75c3c5393dc4")
-		)
-		(instances
-			(project "bldc-driver-pcb"
-				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13721,73 +12817,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 165.1 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "533981d8-e1c3-470a-9999-ad6f195c5215")
-		(property "Reference" "#PWR045"
-			(at 158.75 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 161.29 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b99e6b54-5d03-46c9-b155-c434d89a15d1")
-		)
-		(instances
-			(project "bldc-driver-pcb"
-				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 271.78 199.39 0)
 		(unit 1)
@@ -13851,6 +12880,72 @@
 			(project "bldc-driver-pcb"
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fe2fbc8-564a-4e4b-8725-d03c4d460f46")
+		(property "Reference" "#PWR048"
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee85ffb1-b877-464b-b28e-c1349143532f")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -14195,44 +13290,45 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 165.1 106.68 270)
+		(lib_id "bldc-driver-pcb:USB3140-30-0170-1-C")
+		(at 179.07 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7f832c66-7be6-4105-8644-fa12620d30fe")
-		(property "Reference" "#PWR043"
-			(at 158.75 106.68 0)
+		(uuid "777fd5d4-0558-446c-a5b8-0a570f0ab40c")
+		(property "Reference" "J7"
+			(at 185.42 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 161.29 106.6799 90)
+		(property "Value" "USB3140-30-0170-1-C"
+			(at 185.42 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 165.1 106.68 0)
+		(property "Footprint" "bldc-driver-pcb:USB31403001700C"
+			(at 179.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 106.68 0)
+			(at 179.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14240,22 +13336,170 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 106.68 0)
+		(property "Description" ""
+			(at 179.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Global Connector Technology"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/USB3140-30-0170-1-C/Global+Connector+Technology/view-part/?ref=eda"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E1"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB3140-30-0170-1-C/Global+Connector+Technology/view-part/?ref=snap"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "USB3140-30-0170-1-C"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=222535&manufacturer=Global Connector Technology&part_name=USB3140-30-0170-1-C&search_term=None"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nUSB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Through Hole\n"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Global Connector Technology"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "cc8ceb4a-b0e7-4e64-b554-593ae0fe8d50")
+			(uuid "04a9baa9-78fb-48b3-bebf-eacb55c23226")
+		)
+		(pin "MH2"
+			(uuid "8d4355e6-1e73-4e0f-ae5d-6c02312adcae")
+		)
+		(pin "5"
+			(uuid "338f4428-f136-44c9-a886-46086554d778")
+		)
+		(pin "4"
+			(uuid "2ac34adc-0373-42af-9a13-af9dc2e31df6")
+		)
+		(pin "2"
+			(uuid "9fda59ec-9c19-422c-acc6-98cf56d90d07")
+		)
+		(pin "MH1"
+			(uuid "f0dce314-741c-4595-a57f-6bf112dff697")
+		)
+		(pin "3"
+			(uuid "36b0c5dc-97d8-4180-ad0c-a39d592e722d")
 		)
 		(instances
-			(project "bldc-driver-pcb"
+			(project ""
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
-					(reference "#PWR043")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -14398,6 +13642,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 166.37 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d925b40-1a15-444a-8465-2d4c27e52ad4")
+		(property "Reference" "#PWR061"
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fa6242b-1baa-46ad-bd77-4cfa76b75408")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 269.24 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14464,73 +13774,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a44b4d4e-1ec2-4813-a4c9-b2680b772ce4")
-		(property "Reference" "#PWR036"
-			(at 194.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b4c18c6-2021-4ce3-b120-e8f3f6ae3e16")
-		)
-		(instances
-			(project "bldc-driver-pcb"
-				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 269.24 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14590,6 +13833,72 @@
 			(project "bldc-driver-pcb"
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 160.02 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abb71d39-061b-4565-b663-80fa9c996c5c")
+		(property "Reference" "#PWR049"
+			(at 160.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 160.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 160.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fb660a8-0202-4e6e-a69f-d69c45ffc676")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -15062,139 +14371,6 @@
 			(project ""
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 165.1 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3354ae7-b875-4e6d-b7ff-f9d638617d54")
-		(property "Reference" "#PWR044"
-			(at 158.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 161.29 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05911ada-e7ad-42be-b7a9-68258e8e776c")
-		)
-		(instances
-			(project "bldc-driver-pcb"
-				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecaa5f5e-b28d-4c2e-b460-f37701745648")
-		(property "Reference" "#PWR049"
-			(at 147.32 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3740daf-9f93-4d2f-9f91-2e7a2311eb8a")
-		)
-		(instances
-			(project "bldc-driver-pcb"
-				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
