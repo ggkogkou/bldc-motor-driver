@@ -5198,15 +5198,15 @@
 	(symbol
 		(lib_id "bldc-driver-pcb:505567-0471")
 		(at 254 119.38 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c30fc37c-b7ce-4bb8-ba42-ea40f2b7412f")
 		(property "Reference" "J5"
-			(at 254 107.95 0)
+			(at 254.254 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5214,7 @@
 			)
 		)
 		(property "Value" "505567-0471"
-			(at 254 110.49 0)
+			(at 254 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,7 +5222,7 @@
 			)
 		)
 		(property "Footprint" "bldc-driver-pcb:5055670471"
-			(at 270.51 214.3 0)
+			(at 270.51 24.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5232,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.molex.com/webdocs/datasheets/pdf/en-us//5055670471_PCB_HEADERS.pdf"
-			(at 270.51 314.3 0)
+			(at 270.51 -75.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,7 +5251,7 @@
 			)
 		)
 		(property "Height" "3"
-			(at 270.51 514.3 0)
+			(at 270.51 -275.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,7 +5261,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-505567-0471"
-			(at 270.51 614.3 0)
+			(at 270.51 -375.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5271,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/505567-0471?qs=gt1LBUVyoHnKtp3R0Oh0Cg%3D%3D"
-			(at 270.51 714.3 0)
+			(at 270.51 -475.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5281,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 270.51 814.3 0)
+			(at 270.51 -575.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,7 +5291,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "505567-0471"
-			(at 270.51 914.3 0)
+			(at 270.51 -675.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
