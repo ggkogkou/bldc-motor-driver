@@ -144,6 +144,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers
 				(hide yes)
@@ -1689,6 +1829,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bldc-driver-pcb:LFSPXO009686"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "LFSPXO009686"
+				(at -7.112 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "bldc-driver-pcb:LFSPXO009686"
+				(at 46.99 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.iqdfrequencyproducts.com/products/pn/LFSPXO009686Cutt.pdf"
+				(at 46.99 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "32.768 kHz XO (Standard) CMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.95"
+				(at 46.99 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "449-LFSPXO009686"
+				(at 46.99 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/IQD/LFSPXO009686?qs=ZcfC38r4PovaxkK5sket1g%3D%3D"
+				(at 46.99 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "IQD"
+				(at 46.99 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LFSPXO009686"
+				(at 46.99 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LFSPXO009686_1_1"
+				(rectangle
+					(start -20.32 3.81)
+					(end 20.32 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -25.4 1.27 0)
+					(length 5.08)
+					(name "+VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -25.4 -1.27 0)
+					(length 5.08)
+					(name "TRI-STATE_OPERATION"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 1.27 180)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -1.27 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bldc-driver-pcb:USB3140-30-0170-1-C"
 			(pin_names
 				(offset 1.016)
@@ -2773,6 +3101,12 @@
 		(uuid "77abf152-0c99-4e7f-ac52-83ed87e03217")
 	)
 	(junction
+		(at 106.68 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8753802a-f284-47f7-b9a5-e3b2a2cd91e3")
+	)
+	(junction
 		(at 160.02 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2795,6 +3129,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bea2e869-cf9b-4fff-af9a-115aa99632b9")
+	)
+	(junction
+		(at 106.68 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc87c662-f902-4ac3-8b36-9076e904b822")
 	)
 	(junction
 		(at 226.06 193.04)
@@ -2978,6 +3318,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 222.25) (xy 163.83 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18199352-0884-4a14-84df-0c5c85a3eeaa")
+	)
+	(wire
+		(pts
 			(xy 275.59 172.72) (xy 265.43 172.72)
 		)
 		(stroke
@@ -3066,6 +3416,16 @@
 		)
 		(uuid "3ca663d1-53b9-4032-833e-746de1827fea")
 	)
+	(wire
+		(pts
+			(xy 106.68 222.25) (xy 106.68 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e599c4b-25db-4917-a1f6-35972c0d3015")
+	)
 	(polyline
 		(pts
 			(xy 132.08 140.97) (xy 179.07 140.97)
@@ -3085,6 +3445,16 @@
 			(type default)
 		)
 		(uuid "403d8453-8139-4356-a240-847adfc6bb60")
+	)
+	(wire
+		(pts
+			(xy 161.29 222.25) (xy 163.83 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d61692-70f1-4c70-a925-a47495eff983")
 	)
 	(wire
 		(pts
@@ -3305,6 +3675,16 @@
 			(type default)
 		)
 		(uuid "6fead069-6fbb-4570-8c55-043bd4cad54e")
+	)
+	(wire
+		(pts
+			(xy 106.68 229.87) (xy 106.68 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751488ba-1936-4028-b3de-b135d3a9a965")
 	)
 	(wire
 		(pts
@@ -3578,6 +3958,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 222.25) (xy 110.49 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79992cc-c8d5-4246-baba-5e0dd9704950")
+	)
+	(wire
+		(pts
 			(xy 271.78 204.47) (xy 271.78 203.2)
 		)
 		(stroke
@@ -3665,6 +4055,26 @@
 			(type default)
 		)
 		(uuid "d807ff18-35bc-4914-9503-aaa482d55e86")
+	)
+	(wire
+		(pts
+			(xy 106.68 224.79) (xy 106.68 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daed18ee-3795-4958-b28d-2f541c64a60c")
+	)
+	(wire
+		(pts
+			(xy 106.68 217.17) (xy 106.68 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02c8990-45f7-411d-8f0b-bf101082003b")
 	)
 	(wire
 		(pts
@@ -3785,6 +4195,16 @@
 			(type default)
 		)
 		(uuid "f7df5890-7b76-4aca-8365-35455a69422f")
+	)
+	(wire
+		(pts
+			(xy 106.68 219.71) (xy 110.49 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f28a1c-347d-400b-bb9c-e8974afe7f8f")
 	)
 	(wire
 		(pts
@@ -11886,6 +12306,17 @@
 		)
 		(uuid "8ad1878d-ab10-4d88-9655-02f048449695")
 	)
+	(hierarchical_label "XIN32"
+		(shape input)
+		(at 161.29 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b36b747-8618-4076-bee7-9f6085e0291f")
+	)
 	(hierarchical_label "TCC0_WO5"
 		(shape input)
 		(at 113.03 172.72 270)
@@ -12186,7 +12617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "bldc-driver-pcb:BLM18SP221SN1B"
 			(at 238.76 152.908 90)
 			(effects
 				(font
@@ -12213,6 +12644,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "BLM18SP221SN1B"
+			(at 238.76 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "188f42d0-894a-4ac1-8706-b147f20cbb96")
 		)
@@ -12223,6 +12663,132 @@
 			(project ""
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bldc-driver-pcb:LFSPXO009686")
+		(at 135.89 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d270f13-f83c-47b3-a3cd-f1efdd885113")
+		(property "Reference" "Y1"
+			(at 135.89 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LFSPXO009686"
+			(at 135.89 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bldc-driver-pcb:LFSPXO009686"
+			(at 182.88 315.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.iqdfrequencyproducts.com/products/pn/LFSPXO009686Cutt.pdf"
+			(at 182.88 415.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "32.768 kHz XO (Standard) CMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"
+			(at 135.89 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.95"
+			(at 182.88 615.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "449-LFSPXO009686"
+			(at 182.88 715.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/IQD/LFSPXO009686?qs=ZcfC38r4PovaxkK5sket1g%3D%3D"
+			(at 182.88 815.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "IQD"
+			(at 182.88 915.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LFSPXO009686"
+			(at 182.88 1015.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "feb238b1-a30a-48b9-8144-5901a329555d")
+		)
+		(pin "3"
+			(uuid "4d4ca62a-df25-4bb3-873d-5ba45c7e7ee1")
+		)
+		(pin "1"
+			(uuid "75eb8347-558e-4383-99c6-7c7b0994727d")
+		)
+		(pin "4"
+			(uuid "424d2da9-2194-4965-b2d3-8c3f67faefb2")
+		)
+		(instances
+			(project ""
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -12356,6 +12922,72 @@
 			(project "bldc-driver-pcb"
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "195a5586-fcfb-49ba-819a-cfb4fc44ece7")
+		(property "Reference" "#PWR063"
+			(at 163.83 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12f43456-d9dc-4c66-bdb7-50e599e6c7d7")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -12811,6 +13443,72 @@
 			(project "bldc-driver-pcb"
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 106.68 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "597c1f6e-6a7a-4f1d-8fe2-068f09fbd703")
+		(property "Reference" "#PWR062"
+			(at 106.68 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 106.68 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 106.68 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03fd2bde-df85-411f-a203-ab343afcb244")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -13641,6 +14339,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 106.68 227.33 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a83094b-91db-4719-b4c5-1658d2db08e7")
+		(property "Reference" "C17"
+			(at 104.14 226.0535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 104.14 228.5935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 106.68 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 106.68 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac3ab8c2-f6c7-484f-a272-9be3021e51dc")
+		)
+		(pin "2"
+			(uuid "b8103d57-6b88-4b1e-855f-38b1c3997c76")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 166.37 67.31 0)
 		(unit 1)
@@ -14304,6 +15072,72 @@
 			(project ""
 				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d67152ad-d5b3-4b25-b4b2-357bd3d96933")
+		(property "Reference" "#PWR051"
+			(at 106.68 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42659a77-41f3-40ed-891f-c666be859087")
+		)
+		(instances
+			(project "bldc-driver-pcb"
+				(path "/5e6bb808-fe2d-4f40-abac-bbdbce94873a/438e8c0a-0ffb-4b9d-beb8-326aea7999b7"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
